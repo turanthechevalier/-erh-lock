@@ -130,17 +130,31 @@ Son olarak, 2017 Anayasa değişikliğiyle benimsenen hükümet sistemi bakımı
 
 ## § 41. KARŞILAŞTIRMALI DEĞERLENDİRME
 
-Bu bölümde incelenen hukuk düzenlerinin, yapay zekânın denetimi ve sorumluluğu sorununa verdikleri cevaplar, aşağıdaki tabloda özetlenmektedir.
+Bu bölümde incelenen hukuk düzenlerinin, yapay zekânın denetimi ve sorumluluğu sorununa verdikleri cevaplar, aşağıdaki iki tabloda özetlenmektedir.
 
-| Ölçüt | Avrupa Birliği | Avrupa Konseyi | ABD | Birleşik Krallık | Çin | Türkiye |
-|:---|:---|:---|:---|:---|:---|:---|
-| Hukuki temel | Doğrudan uygulanan tüzük | Çerçeve antlaşma | Sektörel kurallar, kararnameler, eyalet kanunları | İlkeler, sektörel düzenleyiciler | İdari düzenlemeler | Genel kurallar; özel kanun yok |
-| Temel yaklaşım | Risk temelli, yatay | İnsan hakları ve demokrasi temelli | Piyasa ve rekabet öncelikli | Yenilik yanlısı, ilke temelli | Devlet denetimi öncelikli | Strateji belgeleri |
-| İnsan gözetimi | Ayrıntılı (md. 14) | Genel ilke | Sınırlı, dağınık | İlke düzeyinde | Devlet gözetimi | Anayasal ilkeler; özel düzenleme yok |
-| Sınır modeller | Hesaplama eşikli yükümlülükler | Özel hüküm yok | Eyalet düzeyinde şeffaflık (Kaliforniya) | Gönüllü test (Enstitü) | Kayıt ve güvenlik değerlendirmesi | Özel düzenleme yok |
-| Yetkili otorite | Yapay Zekâ Ofisi ve ulusal makamlar | Ulusal gözetim mekanizmaları | Sektörel kurumlar | Sektörel düzenleyiciler, Enstitü | Siber uzay düzenleyicisi | Dağınık mevcut kurumlar |
-| Bireysel haklar | Açıklama hakkı, şikâyet hakkı | Başvuru yolları, usul güvenceleri | Dağınık | Veri koruma çerçevesinde | Sınırlı | KVKK md. 11 itiraz hakkı |
-| Devletin kendisinin denetimi | Kısmi; ulusal güvenlik hariç | Kısmi; ulusal güvenlik hariç | Yargı ve eyaletler aracılığıyla | Yargı ve parlamento | Zayıf | Anayasal güvenceler; özel düzenleme yok |
+**Tablo 1a.** Avrupa Birliği, Avrupa Konseyi ve Amerika Birleşik Devletleri
+
+| Ölçüt | Avrupa Birliği | Avrupa Konseyi | ABD |
+|:---|:---|:---|:---|
+| Hukuki temel | Doğrudan uygulanan tüzük | Çerçeve antlaşma | Sektörel kurallar, kararnameler, eyalet kanunları |
+| Temel yaklaşım | Risk temelli, yatay | İnsan hakları ve demokrasi temelli | Piyasa ve rekabet öncelikli |
+| İnsan gözetimi | Ayrıntılı (md. 14) | Genel ilke | Sınırlı, dağınık |
+| Sınır modeller | Hesaplama eşikli yükümlülükler | Özel hüküm yok | Eyalet düzeyinde şeffaflık (Kaliforniya) |
+| Yetkili otorite | Yapay Zekâ Ofisi ve ulusal makamlar | Ulusal gözetim mekanizmaları | Sektörel kurumlar |
+| Bireysel haklar | Açıklama hakkı, şikâyet hakkı | Başvuru yolları, usul güvenceleri | Dağınık |
+| Devletin kendisinin denetimi | Kısmi; ulusal güvenlik hariç | Kısmi; ulusal güvenlik hariç | Yargı ve eyaletler aracılığıyla |
+
+**Tablo 1b.** Birleşik Krallık, Çin ve Türkiye
+
+| Ölçüt | Birleşik Krallık | Çin | Türkiye |
+|:---|:---|:---|:---|
+| Hukuki temel | İlkeler, sektörel düzenleyiciler | İdari düzenlemeler | Genel kurallar; özel kanun yok |
+| Temel yaklaşım | Yenilik yanlısı, ilke temelli | Devlet denetimi öncelikli | Strateji belgeleri |
+| İnsan gözetimi | İlke düzeyinde | Devlet gözetimi | Anayasal ilkeler; özel düzenleme yok |
+| Sınır modeller | Gönüllü test (Enstitü) | Kayıt ve güvenlik değerlendirmesi | Özel düzenleme yok |
+| Yetkili otorite | Sektörel düzenleyiciler, Enstitü | Siber uzay düzenleyicisi | Dağınık mevcut kurumlar |
+| Bireysel haklar | Veri koruma çerçevesinde | Sınırlı | KVKK md. 11 itiraz hakkı |
+| Devletin kendisinin denetimi | Yargı ve parlamento | Zayıf | Anayasal güvenceler; özel düzenleme yok |
 
 Bu karşılaştırma, birkaç önemli sonuca işaret etmektedir.
 

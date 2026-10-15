@@ -73,7 +73,7 @@ L = WD_ALIGN_PARAGRAPH.LEFT
 bicimle("Normal", 11, hiza=J, sonra=4, satir=1.15)
 bicimle("Body Text", 11, hiza=J, once=0, sonra=4, satir=1.15, girinti=0.7)
 bicimle("First Paragraph", 11, hiza=J, once=0, sonra=4, satir=1.15, girinti=0.7)
-bicimle("Compact", 11, hiza=J, once=0, sonra=2, satir=1.15)
+bicimle("Compact", 9, hiza=L, once=0, sonra=1, satir=1.0, girinti=0)
 bicimle("Block Text", 10, hiza=J, once=4, sonra=6, satir=1.1)
 bicimle("Footnote Text", 9, hiza=J, once=0, sonra=1, satir=1.0)
 bicimle("Title", 20, kalin=True, hiza=C, once=60, sonra=18)
