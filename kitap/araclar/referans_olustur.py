@@ -1,7 +1,7 @@
 """Pandoc'un varsayılan referans belgesinden kitap biçimli bir referans DOCX üretir.
 
 Sayfa: 16 x 24 cm (Türk akademik yayıncılığında yaygın kitap ebadı)
-Yazı: Liberation Serif (Times New Roman ile ölçü uyumlu), metin 11 pt, dipnot 9 pt.
+Yazı: Times New Roman (derleme ortamında ölçü uyumlu Liberation Serif ile eşlenir), metin 11 pt, dipnot 9 pt.
 """
 import sys
 
@@ -10,7 +10,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Cm, Pt, RGBColor
 
 KAYNAK, HEDEF = sys.argv[1], sys.argv[2]
-YAZI = "Liberation Serif"
+YAZI = "Times New Roman"
 
 belge = Document(KAYNAK)
 
@@ -108,6 +108,15 @@ for ad in ("Heading 2", "Heading 3", "Heading 4", "Heading 5"):
     stil = stil_bul(ad)
     if stil is not None:
         stil.paragraph_format.keep_with_next = True
+
+# Belge varsayılan yazı tipini de eşitle (stil tanımlamayan metin parçaları için)
+for rfonts in belge.styles.element.iter(W + "rFonts"):
+    parent = rfonts.getparent()
+    if parent is not None and parent.getparent() is not None and parent.getparent().tag == W + "rPrDefault":
+        for anahtar in ("ascii", "hAnsi", "cs", "eastAsia"):
+            rfonts.set(W + anahtar, YAZI)
+        for anahtar in ("asciiTheme", "hAnsiTheme", "cstheme", "eastAsiaTheme"):
+            rfonts.attrib.pop(W + anahtar, None)
 
 # Alt bilgiye ortalanmış sayfa numarası
 from docx.oxml import OxmlElement
